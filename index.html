@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Gurukul – Grammar Tutor</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f8ff;
+      text-align: center;
+      padding-top: 80px;
+    }
+    h1 {
+      color: #333;
+    }
+    p {
+      color: #555;
+      max-width: 600px;
+      margin: auto;
+      font-size: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to AI Gurukul</h1>
+  <p>Learn grammar in English, Hindi, and Assamese with AI.<br>Ask anything about tense, sentence formation, or grammar rules!</p>
+
+  <!-- Botpress Chat Embed -->
+  <script src="https://cdn.botpress.cloud/webchat/v3"></script>
+  <script>
+    window.botpressWebChat.init({
+      composerPlaceholder: "Ask your grammar question...",
+      botId: "14cda575-7661-45f9-bf23-8d96a10b80f4",
+      clientId: "2e2c97ef-dff6-43ab-9ab4-71048d54a363",
+      hostUrl: "https://cdn.botpress.cloud/webchat/v3",
+      messagingUrl: "https://messaging.botpress.cloud",
+      lazySocket: true,
+      enableConversationDeletion: true,
+      themeName: "prism",
+      theme: "light",
+      layoutWidth: "100%",
+      hideWidget: false
+    });
+  </script>
+
+</body>
+</html>
